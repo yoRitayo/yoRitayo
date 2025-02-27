@@ -2,7 +2,7 @@
 
 ## 📌 Sobre Mim
 
-Sou um(a) analista de dados com experiência em Python, SQL, Power BI e ferramentas de análise de dados.
+Sou uma analista de dados com experiência em Python, SQL, Power BI e ferramentas de análise de dados.
 
 ## 🚀 Projetos
 
