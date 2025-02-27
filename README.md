@@ -12,5 +12,4 @@ Sou um(a) analista de dados com experiência em Python, SQL, Power BI e ferramen
 
 ## 🌐 Acesse Meu Portfólio Online
 
-Confira meu portfólio completo no GitHub Pages:  
-[Acessar Portfólio](https://yoRitayo.github.io)
+Confira meu portfólio completo no GitHub Pages. [Acessar Portfólio](https://yoRitayo.github.io)
