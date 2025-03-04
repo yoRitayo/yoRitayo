@@ -29,10 +29,6 @@ function iniciarSidebar() {
 }
 
 
-/**
- * Função para inicializar a funcionalidade de exibição de certificados.
- * Adiciona eventos de clique aos links dos certificados para exibir a imagem correspondente.
- */
 function initCertificados() {
     const linksCertificados = document.querySelectorAll("#certificados ul li a");
     const imagemCertificado = document.getElementById("certificado-imagem");
@@ -52,10 +48,6 @@ function initCertificados() {
     });
 }
 
-/**
- * Função para resetar os links e seções.
- * Remove as classes 'selecionado' e 'ativa' de todos os links e seções.
- */
 function resetLinksAndSections(links, secoes) {
     links.forEach((link) => link.classList.remove("selecionado"));
     secoes.forEach((secao) => secao.classList.remove("ativa"));
