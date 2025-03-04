@@ -1,28 +1,28 @@
+// Carregar o HTML
 document.addEventListener("DOMContentLoaded", function () {
-    initSidebarNavigation();
+    iniciarSidebar();
     initCertificados();
 });
 
-function initSidebarNavigation() {
+
+function iniciarSidebar() {
     const links = document.querySelectorAll(".sidebar nav ul li a");
     const secoes = document.querySelectorAll(".conteudo .secao");
 
     links.forEach(link => {
         link.addEventListener("click", function (e) {
-            e.preventDefault();  // Evita que a página role para o link
+            e.preventDefault();
 
-            // Remove a classe "selecionado" de todos os links
+            // Mudando de seção
             links.forEach(l => l.classList.remove("selecionado"));
             this.classList.add("selecionado");
 
-            // Oculta todas as seções antes de exibir a correta
             secoes.forEach(secao => secao.classList.remove("ativa"));
 
-            // Obtém o ID da seção associada ao link clicado
-            const secaoAtivar = document.querySelector(this.getAttribute("href"));
+            const ativarSecao = document.querySelector(this.getAttribute("href"));
 
-            if (secaoAtivar) {
-                secaoAtivar.classList.add("ativa");
+            if (ativarSecao) {
+                ativarSecao.classList.add("ativa");
             }
         });
     });
