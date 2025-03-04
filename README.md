@@ -1,16 +1,17 @@
 👋 Olá! 
 
-## 📌 Sobre Mim
+## 📌 Sobre Mim  
 
-Sou uma analista de dados com experiência em Python, SQL, Power BI e ferramentas de análise de dados.
+Graduanda em Engenharia da Computação pela EST-UEA desde 2023, sou entusiasta em Ciência de Dados. Tenho experiência em análise exploratória de dados, incluindo tratamento, visualização e extração de insights para complementar a tomada de decisões. 
 
-## 🚀 Projetos
+## 🚀 Projetos  
 
-- [Análise Exploratória de Dados](projetos/projeto-eda/)
-- [Consultas SQL](projetos/projeto-sql/)
-- [Dashboard Power BI](projetos/projeto-powerbi/)
+- [Análise de Dados sobre Diabetes Tipo 2](projetos/analise-diabetes/)  
+- [Ambiente PostgreSQL com Bash no Docker](projetos/postgresql-docker/)  
+- [Interface de Cadastro com Tkinter](projetos/tkinter-cadastro/)  
+- [Gestão de Informações com MySQL](projetos/mysql-controle-pessoas/)  
 
-## 🌐 Acesse Meu Portfólio Online
+## 🌐 Acesse Meu Portfólio Online  
 
-Confira meu portfólio completo no GitHub Pages:
-[Acessar Portfólio](https://yoRitayo.github.io)
+Confira meu portfólio completo no GitHub Pages:  
+[Acessar Portfólio](https://yoritayo.github.io/yoRitayo/)  
