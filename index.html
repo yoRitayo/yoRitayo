@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rita de Cássia</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<!-- Barra lateral com seções -->
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <img src="assets/imgs/rita.jpg" alt="Minha foto" class="foto-perfil">
+    <h1>Rita de Cássia Brasil Alves</h1>
+    <p>Cientista de Análise de Dados</p>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#home" class="selecionado"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#sobre"><i class="fas fa-user"></i> Sobre Mim</a></li>
+      <li><a href="#projetos"><i class="fas fa-project-diagram"></i> Projetos</a></li>
+      <li><a href="#certificados"><i class="fas fa-certificate"></i> Certificados</a></li>
+      <li><a href="#formacao"><i class="fas fa-graduation-cap"></i> Formação Acadêmica/Cursos</a></li>
+      <li><a href="#contato"><i class="fas fa-envelope"></i> Contato</a></li>
+    </ul>
+  </nav>
+</aside>
+
+<!-- Conteúdo Principal -->
+<main class="conteudo">
+  <section id="home" class="secao ativa">
+    <h2>Home</h2>
+    <p>Olá👋! Eu sou Rita de Cássia. Aqui você poderá encontrar informações sobre meus projetos, formação e habilidades.</p>
+    <p>Acesse meu portfólio completo com projetos no GitHub: <a href="https://github.com/meunome" target="_blank">GitHub</a></p>
+  </section>
+
+  <section id="sobre" class="secao">
+    <h2>Sobre Mim</h2>
+    <p>Sou uma analista de dados que valoriza a arte de transformar dados de cunho público em informações valiosas que mudam
+      as perspectivas das pessoas ao meu redor. Tenho experiência em Python, linguagens SQL como MySQL e PostgreSQL, além de
+      já estar familiarizada com ambientes de manipulação e análise de dados como Power BI e Excel.</p>
+    <p>Gosto de interagir com dados através de bibliotecas funcionais e essenciais na área como o Pandas, Matplotlib e NumPy.
+      Também já me aventurei na análise de dados através de processos de Machine Learning com modelos de regressão e Deep
+      Learning aplicada em Visão Computacional para tarefas de classificação.</p>
+  </section>
+
+  <section id="projetos" class="secao">
+    <h2>Projetos em Ciência de Dados</h2>
+    <ul class="lista-projetos">
+      <li>
+        <a href="https://github.com/seu-usuario/projeto-eda" target="_blank" class="link-projeto">
+          <i class="fas fa-project-diagram"></i>
+          <span>Análise Exploratória de Dados: Identificação do perfil de diabéticos tipo 2 no DataSus</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/seu-usuario/projeto-sql" target="_blank" class="link-projeto">
+          <i class="fas fa-project-diagram"></i>
+          <span>Consultas SQL: [dê algumas]</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/seu-usuario/projeto-powerbi" target="_blank" class="link-projeto">
+          <i class="fas fa-project-diagram"></i>
+          <span>Dashboard Power BI</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/seu-usuario/projeto-ml" target="_blank" class="link-projeto">
+          <i class="fas fa-project-diagram"></i>
+          <span>Predição com ML</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/seu-usuario/projeto-dl" target="_blank" class="link-projeto">
+          <i class="fas fa-project-diagram"></i>
+          <span>Visão Computacional</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="certificados" class="secao">
+    <h2>Certificados</h2>
+    <p class="info-exibicao">Clique nos certificados para visualizá-los nesta área.</p>
+
+    <!-- Fundação Bradesco -->
+    <div class="instituicao">
+      <img src="assets/imgs/fundacao-bradesco.png" alt="Logo Fundação Bradesco" class="logo-instituicao">
+      <ul>
+        <li><a href="#" data-certificado="assets/imgs/excel.jpg">Certificado de Trilha Excel (65 horas)</a></li>
+        <li><a href="#" data-certificado="assets/imgs/powerbi.jpg">Certificado de Trilha PowerBi (37 horas)</a></li>
+        <li><a href="#" data-certificado="assets/imgs/python.jpg">Certificado de Trilha Python (53 horas)</a></li>
+      </ul>
+    </div>
+
+    <!-- FreeCodeCamp/Cadence-->
+    <div class="instituicao">
+      <img src="assets/imgs/freecodecamp.png" alt="Logo FreeCodeCamp" class="logo-instituicao">
+      <img src="assets/imgs/cadence.png" alt="Logo Cadence" class="logo-instituicao">
+      <ul>
+        <li><a href="#" data-certificado="assets/imgs/rbd"> Banco de Dados Relacional</a></li>
+        <li><a href="#" data-certificado="assets/imgs/cadence-rtl.jpg">Linguaguem Verilog e Aplicações - RTL</a></li>
+      </ul>
+    </div>
+
+    <!-- Samsung STEM/Ocean -->
+    <div class="instituicao">
+      <img src="assets/imgs/samsung-ocean.png" alt="Logo Samsung Ocean" class="logo-instituicao">
+      <img src="assets/imgs/acadstem.jpeg" alt="Logo AcadSTEM" class="logo-instituicao">
+      <ul>
+        <li><a href="#" data-certificado="assets/imgs/stem-permanencia.jpg"> STEM Permanência</a></li>
+        <li><a href="#" data-certificado="assets/imgs/consultando-bases-sql-python.jpg">Consultando Bases SQL com Python</a></li>
+        <li><a href="#" data-certificado="assets/imgs/aprendizado-nao-supervisionado-data-science.jpg">Aprendizado não supervisionado para Data Science</a></li>
+        <li><a href="#" data-certificado="assets/imgs/introducao-a-otimizacao.jgp">Introdução a Otimização</a></li>
+        <li><a href="#" data-certificado="assets/imgs/laboratorio-iot-arduino.jpg">Laboratório de IoT com Arduino</a></li>
+        <li><a href="#" data-certificado="assets/imgs/eletronica-basica_page.jpg">Eletrônica Básica para Fabricação Digital</a></li>
+      </ul>
+    </div>
+
+    <!-- Kaggle -->
+    <div class="instituicao">
+      <img src="assets/imgs/kaggle.png" alt="Logo Kaggle" class="logo-instituicao">
+      <ul>
+        <li><a href="#" data-certificado="assets/imgs/pandas.png">Pandas</a></li>
+        <li><a href="#" data-certificado="assets/imgs/introml.png">Introdução ao Machine Learning</a></li>
+      </ul>
+    </div>
+
+    <!-- Área para exibir os certificados -->
+    <div class="certificado-exibicao">
+      <img id="certificado-imagem" src="" alt="Certificado">
+      <p id="certificado-descricao"></p>
+    </div>
+  </section>
+
+  <section id="formacao" class="secao">
+    <h2>Formação Acadêmica / Competências</h2>
+    <div class="formacao-container">
+      <div class="formacao-item">
+        <i class="fas fa-graduation-cap"></i>
+        <div class="formacao-detalhes">
+          <p><strong>Bacharelado em Engenharia da Computação</strong></p>
+          <p><i class="fas fa-calendar-alt"></i> Período: 2023 - Presente</p>
+          <p class="descricao">
+            Formação focada em desenvolvimento de software, hardware, inteligência artificial e análise de dados.
+          </p>
+        </div>
+      </div>
+
+      <div class="formacao-item">
+        <i class="fas fa-database"></i>
+        <div class="formacao-detalhes">
+          <p><strong>Ciência de Dados</strong></p>
+          <p class="descricao">
+            Curso focado em análise de dados, machine learning e visualização de dados.
+          </p>
+        </div>
+      </div>
+
+      <div class="formacao-item">
+        <i class="fas fa-server"></i>
+        <div class="formacao-detalhes">
+          <p><strong>Banco de Dados com SQL e Python</strong></p>
+          <p class="descricao">
+            Curso sobre bancos de dados relacionais e não relacionais, consultas avançadas e modelagem.
+          </p>
+        </div>
+      </div>
+
+      <div class="formacao-item">
+        <i class="fab fa-python"></i>
+        <div class="formacao-detalhes">
+          <p><strong>Desenvolvimento Orientado a Objetos Utilizando a Linguagem Python</strong></p>
+          <p class="descricao">
+            Curso de POO em Python abordando classes, herança, polimorfismo e encapsulamento.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contato" class="secao">
+    <h2>Entre em Contato</h2>
+    <ul>
+      <li><i class="fas fa-envelope"></i> Email profissional: <a href="mailto:ritacassiabralves@gmail.com">ritacassiabralves@gmail.com</a></li>
+      <li><i class="fas fa-envelope"></i> Email acadêmico: <a href="mailto:rdcba.eng23@uea.edu.br">rdcba.eng23@uea.edu.br</a></li>
+      <li><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/rita-de-cássia-94b784276/" target="_blank">LinkedIn</a></li>
+      <li><i class="fas fa-file-alt"></i> Currículo Lattes: <a href="https://lattes.cnpq.br/2556272844601141" target="_blank">Lattes</a></li>
+    </ul>
+  </section>
+</main>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

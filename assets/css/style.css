@@ -1,0 +1,277 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Barra Lateral */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.foto-perfil {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.sidebar h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+.sidebar p {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.sidebar nav ul li a.selecionado {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.sidebar nav ul li a i {
+    margin-right: 10px;
+}
+
+/* Conteúdo Principal */
+.conteudo {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+    box-sizing: border-box;
+}
+
+.secao {
+    display: none;
+}
+
+.secao.ativa {
+    display: block;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Ícones */
+.fas, .fab {
+    margin-right: 10px;
+    color: #4CAF50;
+}
+
+/* Estilo para a seção de certificados */
+#certificados .instituicao {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#certificados .logo-instituicao {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#certificados h3 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+#certificados ul {
+    list-style: none;
+    padding: 0;
+}
+
+#certificados ul li {
+    margin: 10px 0;
+}
+
+#certificados ul li a {
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+}
+
+#certificados ul li a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+/* Área de exibição do certificado */
+.certificado-exibicao {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#certificado-imagem {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: none; /* Inicialmente oculto */
+}
+
+#certificado-descricao {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+}
+
+.info-exibicao {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.instituicao img.logo-instituicao {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.instituicao img.logo-instituicao:last-child {
+    margin-right: 0;
+}
+
+/*layout 2x2*/
+#formacao .formacao-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#formacao .formacao-item {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#formacao .formacao-item i {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #4CAF50; /* Cor verde para os ícones */
+}
+
+#formacao .formacao-detalhes {
+    flex: 1;
+}
+
+#formacao .formacao-detalhes p {
+    margin: 0;
+    font-size: 0.95em;
+    color: #333;
+}
+
+#formacao .formacao-detalhes p strong {
+    font-size: 1.1em;
+    color: #4CAF50; /* Cor verde para os títulos */
+}
+
+#formacao .formacao-detalhes .descricao {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.5;
+}
+
+#formacao .formacao-detalhes .fa-calendar-alt {
+    margin-right: 8px;
+    color: #4CAF50; /* Cor verde para o ícone de calendário */
+}
+
+/* Estilos para a seção de projetos */
+#projetos .lista-projetos {
+    list-style: none;
+    padding: 0;
+}
+
+#projetos .lista-projetos li {
+    margin: 15px 0;
+}
+
+#projetos .link-projeto {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#projetos .link-projeto:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+#projetos .link-projeto i {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #4CAF50;
+}
+
+#projetos .link-projeto span {
+    font-size: 1em;
+    flex: 1;
+}
