@@ -4,7 +4,7 @@
 
 Graduanda em Engenharia da Computação pela EST-UEA desde 2023, sou uma entusiasta em Ciência de Dados, especificamente para análise exploratória, incluindo tratamento, visualização e extração de informações de dados.
 
-## 🚀 Projetos  
+## 🚀 Alguns Projetos  
 
 - [Análise de Dados sobre Diabetes Tipo 2](https://github.com/yoRitayo/eda-diabetes.git)  
 - [Scratch de redes neurais com Python](https://github.com/yoRitayo/scratch_dl)
